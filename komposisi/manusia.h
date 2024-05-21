@@ -2,7 +2,7 @@
 #define MANUSIA_H
 using namespace std;
 
-class mahasiswa{
+class manusia{
     public:
         string name;
         jantung varJantung;
@@ -11,7 +11,7 @@ class mahasiswa{
             cout << name << "hidup\n";
         }
         ~manusia (){
-            cout << name << "mati\n"
+            cout << name << "mati\n";
         }
 };
 #endif
